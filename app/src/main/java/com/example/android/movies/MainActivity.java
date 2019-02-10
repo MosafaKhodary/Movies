@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements PostersAdapter.Li
     static final String[] voteAverage = new String[20];
 
 
-    MoviesAsyncTask moviesAsyncTask;
+    private MoviesAsyncTask moviesAsyncTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
